@@ -4,7 +4,7 @@ Documentation used [here](https://wiki.debian.org/fr/DHCP_Server)
 
 Navigate to the */etc/dhcp/* directory and make a copy of the `dhcpd.conf` file.
 
-Then, edit the */etc/dhcp/[[dhcpd.conf.png]]* file:
+Then, edit the */etc/dhcp/[images/dhcpd.conf](/images/dhcpd.conf.png)* file:
 ```
 subnet 10.0.2.0 netmask 255.255.255.0 {
 	range 10.0.2.100 10.0.2.200;
