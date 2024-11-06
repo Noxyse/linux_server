@@ -13,9 +13,11 @@ gateway 10.0.2.1
 ```
 
 >interfaces-default file
+>
 >![interfaces-default](/images/interfaces-default.png)
 
 >interfaces file
+>
 >![interfaces](/images/interfaces.png)
 
 - Restart the network service: `sudo systemctl restart networking.service`
