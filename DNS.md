@@ -1,14 +1,14 @@
 DNS, or Domain Name System, is like the phonebook of the internet. When you type a website's name (like www.example.com) into your browser, DNS translates that name into an IP address (a series of numbers) that computers use to identify each other on the network. This way, you can access websites using easy-to-remember names instead of complicated numbers.
 
 Documentation used [here](https://adamtheautomator.com/bind-dns-server/).
-#### Installing BIND Packages
+### Installing BIND Packages
 The BIND packages should already be installed from the [[Debian Server]] setup.
 
 Check if the service *named* is enabled by running the following command: `sudo systemctl is-enabled named`
 
 And check its status: `sudo systemctl status named`
 
-#### Configuring BIND DSN Server
+### Configuring BIND DSN Server
 Navigate to the */etc/default/* directory and edit the */etc/default/named* file:
 - `OPTIONS="-4 -u bind`
 
@@ -30,7 +30,7 @@ recursion yes;
 Do not forget to comment-out the `listen-on-v6` line.
 
 Check the BIND configuration: `sudo named-checkconf`
-#### Setting up DNS Zones
+### Setting up DNS Zones
 Navigate to the */etc/bind/* directory and edit the */etc/bind/[[named.conf.local.png]]* file: 
 ```
 zone "kamkar3lib.io" {
@@ -102,11 +102,11 @@ Restart and verify the *named* service with the `systemctl` command:
 - `sudo systemctl restart named`
 - `sudo systemctl status named`
 
-#### Opening DNS port with UFW Firewall
+### Opening DNS port with UFW Firewall
 - `sudo ufw allow Bind9`
 - `sudo ufw status`
 
-#### Verify BIND DNS Server Installation
+### Verify BIND DNS Server Installation
 - `dig @10.0.2.10 www.kamkar3lib.io`
 - `dig @10.0.2.10 mail.kamkar3lib.io`
 - `dig @10.0.2.10 vault.kamkar3lib.io`
