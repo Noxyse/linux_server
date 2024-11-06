@@ -1,6 +1,6 @@
 - Use of VirtualBox (Oracle)
 - Make sure to add a NAT Network before starting the server setup and enable the NAT Network for your newly created VM:
-	![[NAT Network.png]]
+	![NATimages](/images/NAT Network.png)
 	![Adapterimages](/images/Adapter.png)
 - Image of Debian Server 12.7.0 available [here](https://www.debian.org/distrib/)
 	- User: nox
