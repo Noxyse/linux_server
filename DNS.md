@@ -2,7 +2,7 @@ DNS, or Domain Name System, is like the phonebook of the internet. When you type
 
 Documentation used [here](https://adamtheautomator.com/bind-dns-server/).
 ### Installing BIND Packages
-The BIND packages should already be installed from the [[Debian Server]] setup.
+The BIND packages should already be installed from the [Debian Server](Debian_Server.md) setup.
 
 Check if the service *named* is enabled by running the following command: `sudo systemctl is-enabled named`
 
@@ -12,7 +12,7 @@ And check its status: `sudo systemctl status named`
 Navigate to the */etc/default/* directory and edit the */etc/default/named* file:
 - `OPTIONS="-4 -u bind`
 
-Now navigate to the */etc/bind/* directory and edit the */etc/bind/[[named.conf.options.png]]* file:
+Now navigate to the */etc/bind/* directory and edit the */etc/bind/![names.conf.options](named.conf.options.png)* file:
 ```
 // listen port and address 
 listen-on port 53 { localhost; 172.16.1.10; }; 
@@ -31,7 +31,7 @@ Do not forget to comment-out the `listen-on-v6` line.
 
 Check the BIND configuration: `sudo named-checkconf`
 ### Setting up DNS Zones
-Navigate to the */etc/bind/* directory and edit the */etc/bind/[[named.conf.local.png]]* file: 
+Navigate to the */etc/bind/* directory and edit the */etc/bind/![named.conf.local](named.conf.local.png)* file: 
 ```
 zone "kamkar3lib.io" {
     type master;
@@ -50,7 +50,7 @@ Copy the default **forward** and **reverse** zones:
 - `sudo cp /etc/bind/db.local /etc/bind/zones/forward.kamkar3lib.io`
 - `sudo cp /etc/bind/db.127 /etc/bind/zones/reverse.kamkar3lib.io`
 
-Edit the **forward** zone file */etc/bind/zones/[[forward.kamkar3lib.io.png]]*:
+Edit the **forward** zone file */etc/bind/zones/![forward.kamkar3lib.io](forward.kamkar3lib.io.png)*:
 ```
 ;
 ; BIND data file for the local loopback interface
@@ -74,7 +74,7 @@ mail    IN      A       10.0.2.20
 vault   IN      A       10.0.2.30
 ```
 
-Edit the **reverse** file */etc/bind/zones/[[reverse.kamkar3lib.io.png]]*:
+Edit the **reverse** file */etc/bind/zones/![reverse.kamkar3lib.io](reverse.kamkar3lib.io.png)*:
 ```
 ;
 ; BIND reverse data file for the local loopback interface
