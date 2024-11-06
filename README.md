@@ -23,7 +23,7 @@
         1. Propose and implement a solution to remotely help a user
 
 # Setup steps
-### 1. Installing ![Debian Server](Debian Server.md)
+### 1. Installing [Debian Server](Debian Server.md)
 ### 2. Setting up [[Static IP]]
 ### 3. Adding a [[Firewall]]
 ### 4. Setting up a [[DNS]]
