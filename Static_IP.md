@@ -13,10 +13,10 @@ gateway 10.0.2.1
 ```
 
 >interfaces-default file
->![[interfaces-default.png]]
+>![interfaces-default](/images/interfaces-default.png)
 
 >interfaces file
->![[interfaces.png]]
+>![interfaces](/images/interfaces.png)
 
 - Restart the network service: `sudo systemctl restart networking.service`
 - Make sure you have the correct ip address: `ip a`
