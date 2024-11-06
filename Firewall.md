@@ -13,4 +13,4 @@ You will need to do the same with other ports:
 
 You can activate the firewall with `sudo ufw enable` and check its status with `sudo ufw status`
 
-![[firewall.png]]
+![firewall](/images/firewall.png)
