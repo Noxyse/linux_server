@@ -22,3 +22,5 @@ For other and more in-depth settings and configuration, you will need to wander 
 Do not forget to restart the service after each and every modification: `sudo systemctl restart nginx`.
 #### How to test it?
 Using your workstation, open up your browser and access the server's IP address. In our case: `http://10.0.2.10/`.
+
+Go to [7. Automating a backup](Automated_backup.md)
