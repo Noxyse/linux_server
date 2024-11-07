@@ -57,7 +57,7 @@ Edit the **forward** zone file */etc/bind/zones/[forward.kamkar3lib.io](/images/
 ;
 $TTL    604800
 @       IN      SOA     kamkar3lib.io. root.kamkar3lib.io. (
-	                        2         ; Serial
+	                        2     ; Serial
                         604800        ; Refresh
                         86400         ; Retry
                         2419200       ; Expire
