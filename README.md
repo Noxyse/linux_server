@@ -24,7 +24,7 @@
 
 # Setup steps
 ### 1. Installing [Debian Server](Debian_Server.md)
-### 2. Adding a [Firewall](Firewall.md)
+### 2. Installing a [Firewall](Firewall.md)
 ### 3. Setting up [Static IP](Static_IP.md)
 ### 4. Setting up a [DNS](DNS.md)
 ### 5. Setting up [DHCP](DHCP.md)
