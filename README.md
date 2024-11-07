@@ -28,6 +28,7 @@
 ### 3. Setting up a [Static IP](Static_IP.md)
 ### 4. Setting up a [DNS](DNS.md)
 ### 5. Setting up [DHCP](DHCP.md)
+### 6. Setting up a Web server with [NGINX](NGINX.md)
 ### 7. Automating a [backup](Automated_backup.md)
 
 # CLIENT setup
