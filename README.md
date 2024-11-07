@@ -23,9 +23,9 @@
         1. Propose and implement a solution to remotely help a user
 
 # SERVER setup
-### 1. Installing [Debian Server](Debian_Server.md)
+### 1. Installing a [Debian Server](Debian_Server.md)
 ### 2. Installing a [Firewall](Firewall.md)
-### 3. Setting up [Static IP](Static_IP.md)
+### 3. Setting up a [Static IP](Static_IP.md)
 ### 4. Setting up a [DNS](DNS.md)
 ### 5. Setting up [DHCP](DHCP.md)
 
