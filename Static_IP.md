@@ -21,5 +21,5 @@ gateway 10.0.2.1
 >![interfaces](/images/interfaces.png)
 
 - Restart the network service: `sudo systemctl restart networking.service`
-- Make sure you have the correct ip address: `ip a`
+- Make sure you have the correct IP address: `ip a`
 - Also, make sure that you have internet: `wget -q --spider https://facebook.com/ && echo 'Internet OK' || echo 'Internet KO'`
