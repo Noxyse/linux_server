@@ -17,4 +17,4 @@
 	- `sudo apt install bind9 bind9-utils bind9-dnsutils -y`
   	- `sudo apt install nginx`
 
-Got to [2. Installing Firewall](main/Firewall.md)
+Got to [2. Installing Firewall](/Firewall.md)
