@@ -2,6 +2,8 @@ DHCP, or Dynamic Host Configuration Protocol, is a system that automatically ass
 
 Documentation used [here](https://wiki.debian.org/fr/DHCP_Server)
 
+Install the `isc-dhcp-server` packet.
+
 Navigate to the */etc/dhcp/* directory and make a copy of the `dhcpd.conf` file.
 
 Then, edit the */etc/dhcp/[images/dhcpd.conf](/images/dhcpd.conf.png)* file:
