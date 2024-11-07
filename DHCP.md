@@ -19,4 +19,4 @@ Check the */etc/default/isc-dhcp-server* file and edit it. Make sure to comment-
 
 Restart the service: `sudo service isc-dhcp-server restart`
 
-Go to [NGINX](NGINX.md)
+Go to [6. Setting up a Web server with NGINX](NGINX.md)
