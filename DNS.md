@@ -44,7 +44,7 @@ zone "2.0.10.in-addr.arpa" {
 };
 ```
 
-Create a new directory */etc/bind/zones*: `mkdir -p /etc/bind/zones/`
+Create a new directory */etc/bind/zones*: `sudo mkdir -p /etc/bind/zones/`
 
 Copy the default **forward** and **reverse** zones:
 - `sudo cp /etc/bind/db.local /etc/bind/zones/forward.kamkar3lib.io`
