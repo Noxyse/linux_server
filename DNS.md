@@ -15,7 +15,7 @@ Navigate to the */etc/default/* directory and edit the */etc/default/named* file
 Now navigate to the */etc/bind/* directory and edit the */etc/bind/[named.conf.options](/images/named.conf.options.png)* file:
 ```
 // listen port and address 
-listen-on port 53 { localhost; 172.16.1.10; }; 
+listen-on port 53 { localhost; 10.0.2.10; }; 
 
 // for public DNS server - allow from any 
 allow-query { any; }; 
