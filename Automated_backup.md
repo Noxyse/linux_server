@@ -41,7 +41,7 @@ rm -rf "$TEMP_BACKUP_DIR"
 
 The script creates a temporary directory (`mktemp -d`) to hold files before compression. Then, the `rsync` command copies the specified directories to the temporary backup directory. The `tar` command is used to create a compressed archive. Finally, the temporary backup directory is removed after the archive is created to save space.
 
-![[backup-script.png]]
+(/images/backup-script.png)
 #### Automating the backup
 To automate the backup process, we will be setting up a `cron job`:
 - open the crontab configuration with `crontab -e`
