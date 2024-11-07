@@ -1,7 +1,7 @@
 Nginx is a web server and reverse proxy server that is also used as an email proxy and load balancer. It is known for its ability to handle a large number of concurrent connections efficiently, making it popular for serving static content, managing traffic, and improving the performance of web applications. 
 
 #### Installing the packet
-We already took care of this part in [[Debian_Server]].
+We already took care of this part in [Debian_Server](Debian_Server.md).
 
 #### Make it work
 We will:
@@ -12,7 +12,7 @@ We will:
 
 If everything went well, this is what you should get:
 
-![[nginx.png]]
+![[/images/nginx.png]]
 
 #### Configuring the web server
 You might want to check your `/var/www/html` directory as there may be 2 different html files. Should this be the case, rename the nginx one into `index.html` and discard (or rename) the previous one.
