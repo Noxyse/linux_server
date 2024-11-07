@@ -13,7 +13,7 @@ Then, it's a matter of following the instructions up until this point:
 ![part1](images/disk/part1.png)
 In order: `Manual` > `Guided partitioning` > `Guided - use entire disk` > `Separate /home partition` > `Finish partitioning and write changes to disk` > `Yes`.
 
-The screenshots can be found [here](/images/disk)
+The screenshots can be found [here](/images/disk).
 
 Once the VM is ready and launched, do not forget to update and upgrade this bad boy:
 - `sudo apt update`
