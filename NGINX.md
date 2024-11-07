@@ -12,7 +12,7 @@ We will:
 
 If everything went well, this is what you should get:
 
-![[/images/nginx.png]]
+![nginx](/images/nginx.png)
 
 #### Configuring the web server
 You might want to check your `/var/www/html` directory as there may be 2 different html files. Should this be the case, rename the nginx one into `index.html` and discard (or rename) the previous one.
