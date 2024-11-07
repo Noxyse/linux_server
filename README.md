@@ -29,3 +29,6 @@
 
 ## Workstation
 ### Setting up the [VM](VM_setup.md)
+
+---
+By [AKHMerban](https://github.com/AKHMerban), Mohamed & [Nox](https://github.com/Noxyse).
