@@ -14,3 +14,5 @@ You will need to do the same with other ports:
 You can activate the firewall with `sudo ufw enable` and check its status with `sudo ufw status`
 
 ![firewall](/images/firewall.png)
+
+Go to [3. Setting up Static IP](/Static_IP.md)
