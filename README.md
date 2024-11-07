@@ -17,7 +17,8 @@
     - This workstation uses automatic addressing
     - The /home folder is located on a separate partition, same disk
 
-# SERVER setup
+# Configuration
+## Server
 ### 1. Installing a [Debian Server](Debian_Server.md)
 ### 2. Installing a [Firewall](Firewall.md)
 ### 3. Setting up a [Static IP](Static_IP.md)
@@ -26,4 +27,4 @@
 ### 6. Setting up a Web server with [NGINX](NGINX.md)
 ### 7. Automating a [backup](Automated_backup.md)
 
-# CLIENT setup
+## Workstation
