@@ -10,3 +10,4 @@
 	- `sudo apt install openssh-server`
 	- `sudo apt install openssh-client`
 	- `sudo apt install bind9 bind9-utils bind9-dnsutils -y`
+  	- `sudo apt install nginx`
