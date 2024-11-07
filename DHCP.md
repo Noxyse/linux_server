@@ -13,4 +13,6 @@ subnet 10.0.2.0 netmask 255.255.255.0 {
 }
 ```
 
+Check the */etc/default/isc-dhcp-server* file and edit it. Make sure to comment-out the INTERFACESv6 and add the interface you are using in INTERFACESv4.
+
 Restart the service: `service isc-dhcp-server restart`
