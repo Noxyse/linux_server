@@ -8,7 +8,7 @@
 - Install sudo and get the root privileges for your user:
   1. `su root`
   2. `apt install sudo`
-  3. `visudo`
+  3. `sudo visudo`
 	- add your username under root and save the file
 - Updating and upgrading the server using `sudo apt update` and `sudo apt upgrade`
 - Preparing the setup by installing packets: 
