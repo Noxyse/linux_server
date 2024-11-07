@@ -5,6 +5,8 @@
 - Image of Debian Server 12.7.0 available [here](https://www.debian.org/distrib/)
 	- User: nox
 	- Password: 1234
+- Get the root privileges for your user: `su -i` -> `sudo visudo`
+	- add your username under root and save the file
 - Updating and upgrading the server using `sudo apt update` and `sudo apt upgrade`
 - Preparing the setup by installing packets: 
 	- `sudo apt install openssh-server`
