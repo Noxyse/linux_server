@@ -22,4 +22,4 @@ gateway 10.0.2.1
 
 - Restart the network service: `sudo systemctl restart networking.service`
 - Make sure you have the correct ip address: `ip a`
-- Alternatively, you can ping google: `ping 8.8.8.8`
+- Also, make sure that you have internet: `wget -q --spider https://facebook.com/ && echo 'Internet OK' || echo 'Internet KO'`
