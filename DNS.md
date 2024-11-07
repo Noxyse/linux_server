@@ -115,3 +115,5 @@ Restart and verify the *named* service with the `systemctl` command:
 
 - `dig @10.0.2.10 -x 10.0.2.10`
 - `dig @10.0.2.10 -x 10.0.2.20`
+
+Go to [5. Setting up DHCP](/DHCP.md)
