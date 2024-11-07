@@ -28,3 +28,4 @@
 ### 7. Automating a [backup](Automated_backup.md)
 
 ## Workstation
+Setting up the [VM](VM_setup.md)
