@@ -2,18 +2,18 @@ Nothing too fancy, we are using [Virtual Box](https://www.virtualbox.org/) and a
 
 The important thing to which we must pay attention prior to launching the VM is that it should be using the **NAT Network** adapter that we created for the server. The one using `10.0.2.0` static IP address.
 
-![adapter](Adapter.png)
+![adapter](images/Adapter.png)
 
 Pay close attention to the setup window. You do not want to miss the step that allows you to partition your disk.
 
 You will first need to select the `install` option when the following installer menu appears:
-![[intro.png]]
+![intro](images/disk/intro.png)
 
 Then, it's a matter of following the instructions up until this point:
-![[part1.png]]
+![part1](images/disk/part1.png)
 In order: `Manual` > `Guided partitioning` > `Guided - use entire disk` > `Separate /home partition` > `Finish partitioning and write changes to disk` > `Yes`.
 
-The screenshots can be found [here](/Images/disk)
+The screenshots can be found [here](/images/disk)
 
 Once the VM is ready and launched, do not forget to update and upgrade this bad boy:
 - `sudo apt update`
