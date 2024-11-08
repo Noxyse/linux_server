@@ -45,6 +45,6 @@ The script creates a temporary directory (`mktemp -d`) to hold files before comp
 #### Automating the backup
 To automate the backup process, we will be setting up a `cron job`:
 - open the crontab configuration with `crontab -e`
-- add the following line to schedule the backup: `0 9 * * * /bin/bash /home/username/backup.sh >> /home/username/backup.log 2>$1`
+- add the following line to schedule the backup: `0 9 * * * /bin/bash /root/backup.sh >> /home/nox/backup/backup.log 2>$1`
 
 The first part of this line will run the script everyday at 9am. The second part is there to monitor the backups by redirecting the output of the script to a log file. It will log both standard output and errors to `backup.log`.
