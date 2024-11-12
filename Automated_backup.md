@@ -1,7 +1,7 @@
 First, install `rsync` with the following command: `sudo apt install rsync`.
 
 #### Creating a backup script
-Navigate to your `home` directory to host the script (you can basically host it anywhere):
+Navigate to your `root` directory to host the script (you can basically host it anywhere):
 - `vim backup.sh`
 
 Inside this script file, here is what you should be writing:
