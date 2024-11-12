@@ -7,7 +7,7 @@ We already took care of this part in [Debian_Server](Debian_Server.md).
 We will:
 1. Start the service: `sudo systemctl start nginx`
 2. Make it boot alongside the server: `sudo systemctl enable nginx`
-3. Enable it in the firewall: `sudo ufw allow 'Nginx Full`
+3. Enable it in the firewall: `sudo ufw allow 'Nginx Full'`
 4. And finally check the service's status: `sudo systemctl status nginx`
 
 If everything went well, this is what you should get:
